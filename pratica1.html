@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Typography</title>
+</head>
+<body>
+      
+    <h1>HTML Typography, all you need to know</h1>
+
+    <h2>1. &lt;h1&gt; a &lt;h6&gt; &#40;Tags de Título&#41;</h2>
+
+    <p>Estrutura Semântica e Otimização de SEO</p>
+
+ 
+    <p>Use tags de título &#40;&lt;h1&gt; a &lt;h6&gt;&#41;para criar uma estrutura hierárquica para o seu conteúdo, 
+      com &lt;h1&gt; sendo o mais importante e &lt;h6&gt; sendo o menos. Garanta que cada página tenha apenas uma 
+      tag &lt;h1&gt;, representando o título principal da página. Use tags de título para fornecer contexto e 
+      melhorar a acessibilidade para leitores de tela e mecanismos de busca. <br><br>Exemplo: html Copiar código. 
+    </p>
+
+    <pre>
+       <code>
+            &lt;h1&gt;Main Heading&lt;&#47;h1&gt; <!-- use &#47 para especificar a barra de fecahmanto de cada tag-->
+            &lt;h2&gt;Subheading &lt;&#47;h2&gt;
+            &lt;p&gt;Content...&lt;&#47;p&gt;
+            &lt;h3&gt;Subheading 2&lt;&#47;h3&gt;
+            &lt;p&gt;Content...&lt;&#47;p&gt;
+        </code>
+    </pre>
+
+    <h2>2. &lt;p&gt; &#40;Paragraph&#41;</h2>
+
+    <p>Use a tag &lt;p&gt; para representar parágrafos de texto dentro do seu conteúdo. Aplique estilos CSS aos elementos 
+       &lt;p&gt; para controlar o alinhamento do texto, altura da linha e espaçamento para melhorar a legibilidade. Use a
+       tag &lt;p&gt; com estilos inline ou classes para criar formatação de parágrafo visualmente atraente e consistente.<br><br>
+       Exemplo:
+    </p>
+
+    <code>
+        &lt;p style&#61;&#34;text-align: justify; line-height: 1.5;&#34;&gt;This is a paragraph with custom styling.&lt;&#47;p&gt;<br>
+        &lt;p style&#61;&#34highlight&#34;&gt;This is a paragraph with custom styling.&lt;&#47;p&gt;
+    </code>
+
+    <h2>3. &lt;hr&gt; &#40;Regra Horizontal&#41;</h2>
+
+    <p>Separação Visual e Estilização</p>
+
+    <p>Use a tag &lt;hr&gt; para inserir uma regra horizontal, criando separação visual entre seções de conteúdo. Aplique estilos 
+       CSS para personalizar a aparência da regra horizontal, como cor, largura e estilo. Combine as tags &lt;hr&gt; com outros 
+       elementos HTML e CSS para criar designs de layout complexos. <br><br> Exemplo:
+    </p>
+    
+   
+    <code>&lt;hr style&#61;&#34;border-color: #ccc; border-width: 2px;&#34;&gt;</code>
+    
+    <h2>4. &lt;blockquote&gt; &#40;Citação em Bloco&#41;</h2>
+
+    <p>Citação de Conteúdo Externo</p>
+
+    <p>Use a tag &lt;blockquote&gt; para representar citações estendidas de fontes externas. Inclua o atributo cite para 
+       fornecer a fonte da citação. Aplique estilos CSS aos elementos &lt;blockquote&gt; para diferenciá-los do texto comum e 
+       fornecer ênfase visual. <br><br>Exemplo:
+    </p>
+
+    <code>
+        &lt;blockquote cite&#61;&#34;https://www.example.com/&#34;&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Esta é uma citação em bloco de uma fonte externa. <br>
+        &lt;&#47;blockquote&gt;
+    </code>
+    
+    <h2>5. &lt;pre&gt; &#40;Texto Pré-formatado&#41;</h2>
+
+    <p>Preservação de Espaço em Branco e Formatação</p>
+
+    <p>
+        Use a tag &lt;pre&gt; para preservar espaço em branco e formatação dentro do texto, como trechos de código ou arte ASCII. 
+        Combine a tag &lt;pre&gt; com a tag &lt;code&gt; para representar blocos de código com destaque de sintaxe. Aplique estilos 
+        CSS para personalizar a aparência do texto pré-formatado, como família de fontes 
+        e cor de fundo. <br><br>Exemplo:
+    </p>
+
+    <pre>
+        <code>
+            &lt;pre&gt;
+            &nbsp;&nbsp;&nbsp;function greet&#40;&#41; &nbsp;&#123;
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; console.log&#40;&#34;Olá, mundo!&#34;&#41;
+            &nbsp;&nbsp;&nbsp;&#125;
+            &lt;&#47;pre&gt;
+        </code>
+    </pre>
+    
+    <h2>6. &lt;abbr&gt; &#40;Abreviação&#41;</h2>
+
+    <p>Caso de Uso : Fornecimento de Definições</p>
+
+    <p>Use a tag &lt;abbr&gt; para marcar abreviações ou siglas dentro do seu conteúdo. Inclua o atributo title para fornecer a 
+       expansão completa ou definição da abreviação. Aplique estilos CSS aos elementos &lt;abbr&gt; para distingui-los 
+       visualmente do texto comum. <br><br>Exemplo:
+    </p>
+
+    <code>&lt;abbr title&#61;&#34;Hypertext Markup Language&#34;>HTML&lt;&#47;abbr&gt;  is used for creating web pages.</code>
+
+    <h2>7. &lt;address&gt; &#40;Informações de Contato&#41;</h2>
+
+    <p>Caso de Uso: Representação Semântica de Informações de Contato</p>
+
+    <p>Use a tag &lt;address&gt; para representar informações de contato, como endereços postais ou endereços de e-mail. Inclua 
+       texto ou outros elementos HTML dentro da tag &lt;address&gt; para fornecer detalhes de contato adicionais. Aplique estilos
+       CSS aos elementos &lt;address&gt; para controlar sua aparência e alinhamento dentro da página.<br><br>Exemplo:
+    </p>
+
+       <pre>
+        <code>
+            &lt;address&gt;
+            João Silva
+            Rua Principal, 123
+            Cidade, Estado CEP
+            Email: joao@exemplo.com
+            &lt;&#47;address&gt;
+        </code>
+       </pre>
+
+       <h2>8. &lt;cite&gt; &#40;Citação&#41;</h2>
+
+       <p>Caso de Uso: Referenciando Obras</p>
+
+    <p>Use a tag &lt;cite&gt; para marcar o título de uma obra criativa, como um livro, filme ou artigo. Inclua o título da obra 
+        dentro da tag &lt;cite&gt; para fornecer significado semântico e melhorar a acessibilidade. Aplique estilos CSS aos 
+        elementos &lt;cite&gt; para distingui-los visualmente do texto comum, como itálico ou  adição de aspas. <br><br>Exemplo:
+    </p>
+
+    <code>
+        &lt;p&gt;&lt;cite&gt;O Grande Gatsby&lt;&#47;cite&gt; de F. Scott Fitzgerald é um romance clássico.&lt;p&gt;
+    </code>
+
+    <h2>9. &lt;code&gt; &#40;Código&#41;</h2>
+
+    <p>Caso de Uso : Representando Trechos de Código</p>
+
+    <p>Use a tag &lt;code&gt; para representar trechos de código inline dentro do seu conteúdo. Combine a tag &lt;code&gt; 
+        com a tag &lt;pre&gt; para exibir blocos maiores de código. Aplique estilos CSS aos elementos &lt;code&gt; para 
+        personalizar a aparência dos trechosde código, como família de fontes e cor de fundo. <br><br>Exemplo:
+    </p>
+
+    <code>&lt;p&gt;Use a função &lt;code&gt;print&#40;&#41;&lt;&#47;code&gt;para exibir saída em Python.&lt;&#47;p&gt;</code>
+     
+    <h2>10. &lt;strong&gt; &#40;Ênfase Forte e Ênfase&#41;</h2>
+
+    <p>Use a tag &lt;strong&gt; para representar texto com forte importância, como palavras-chave ou conteúdo enfatizado. 
+        Use a tag &lt;em&gt;  para representar texto com ênfase, como palavras ou frases enfatizadas. Aplique estilos CSS aos 
+        elementos &lt;strong&gt; &lt;em&gt; para controlar sua aparência, como peso da fonte e estilo.<br><br>Exemplo:
+    </p>
+
+    <code>
+        &lt;p&gt; &lt;strong&gt;Importante:&lt;&#47;strong&gt; Esta informação não deve ser ignorada. &lt;&#47;p&gt;<br>
+        &lt;p&gt; &lt;em&gt;Cuidado:&lt;em&gt; Prossiga com cuidado ao executar esta operação. &lt;&#47;p&gt;
+    </code>
+
+    <h2>HTML Entities</h2>
+
+    <h3>1.&;nbsp - Espaço não-quebrável:</h3>
+
+    <p>
+        <ul><li>Descrição: Representa um caractere de espaço que impede o navegador de colapsar espaços 
+        consecutivos em um único espaço.<br><br>Exemplo:</li></ul>
+    </p>
+
+    <P>Este é um texto&nbsp;com espaço.</P>
+
+    <p>&#124;&nbsp;<em>output: Este é um texto com espaço.</em></p>
+
+    <h3>2.&lt; - Sinal de menor que&#40;&lt;&#41; :</h3>
+
+
+
+</body>
+</html>
