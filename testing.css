@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(43, 57, 206, 0.856);
+    max-width: 1000px;
+    min-width: 600px;
+    margin: 0 auto;
+}
+.main {
+  /*  background: #fff; */
+    padding: 48px;
+    margin: 25px;
+    border-radius: 9px;
+    width: 38em;
+   
+}
+
+.initial-profile {
+    background: #F6F6F6;
+    display: flex;
+    gap: 1em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 12em;
+    width: 19em;
+    height: 5em;
+    padding: 8px;
+    border-radius: 9px;
+    color: #1C1C1E;
+    bottom: 8px;
+}
+
+.picture {
+    border-radius: 8px;
+}
+
+.container {
+  
+   
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.perfil {
+    border: 1.5px solid #666;
+    padding: 10px;
+    width: 31em;
+    border-radius: 4px;  
+    border: none;
+    box-shadow: 1px 1px 1px 2px rgba(245, 227, 227, 0.671), 
+    1px 1px 1px 2px rgba(245, 227, 227, 0.671);
+    z-index: 10;
+}
+
+.p-adriana {
+    background: #F6F6F6;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.p-marco {
+    display: flex;
+    align-items: center;
+    gap: 1em;  
+    padding: 20px;
+    border-radius: 14px;  
+}
+
+.perfil > div img {
+    border-radius: 10px;
+}
+
+.perfil > div input {
+    top: 0;
+    right: 18px;
+    width: 11em;
+    height: 30px;
+    color: black;
+}
+
+.perfil > div label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.perfil > div:hover {
+    color: gold;
+    background-color: #666;
+    border-radius: 8px;
+ }
+
+.alldata {
+    font-family: 20px;
+    padding: 20px;
+    border-radius: 0 0 4px 4px;
+    width: 31em;
+    box-shadow: 1px 1px 1px 2px rgba(245, 227, 227, 0.671), 
+    1px 1px 1px 2px rgba(245, 227, 227, 0.671);
+    z-index: 14;
+}
+
+.alldata > div {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 1em;
+}
+
+.data1 {
+    padding: 25px;
+    background: #F6F6F6;
+    border-radius: 9px;
+}
+
+
+.alldata > div:hover {
+   color: gold;
+   background-color: #666;
+   border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 31em;
+    padding: 8px 22px;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 1px 1px 1px 2px rgba(245, 227, 227, 0.671), 
+    1px 1px 1px 2px rgba(245, 227, 227, 0.671);
+}
