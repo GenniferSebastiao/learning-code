@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+/* modal wrapper */
+.wrapper {
+    background: linear-gradient(90deg, #0004ff90, #e100ff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #585858;
+}
+
+/* Modal Box */
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rbga(77, 77, 77,.7);
+    transform: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Visible Modal on Click*/
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Modal contents */
+.modalcontent {
+    position: relative;
+    background: #fff;
+    width: 500px;
+    max-width: 90%;
+    padding: 1em 2em;
+    border-radius: 15px;
+}
+
+.modalcontent p {
+    text-align: justify;
+}
+
+.modalcontent h1 {
+    text-align: center;
+}
+
+a {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* Close Icon*/
+.modalclose {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #585858;
+    text-decoration: none;
+    font-size: 36px;
+}
